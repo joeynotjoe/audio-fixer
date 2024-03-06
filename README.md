@@ -1,3 +1,5 @@
+![logo.svg](logo.svg)
+
 # audio-fixer
 
 The `audio-fixer.sh` script is designed to process video files by copying the video stream (leaving them untouched) and converting the audio stream to 160kbps AAC. It maintains the original filename but appends `_converted` before the `.mp4` extension. The script can process individual files, multiple files, or all files within a specified directory. It logs the encoding duration and displays a notification upon completion.
